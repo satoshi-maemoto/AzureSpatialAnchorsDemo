@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿// Copyright (c) 2020 Satoshi Maemoto
+// Released under the MIT license
+// http://opensource.org/licenses/mit-license.php
+
+using UnityEngine;
 
 [CreateAssetMenu(menuName = "App/AppSettings")]
 public class AppSettings : ScriptableObject

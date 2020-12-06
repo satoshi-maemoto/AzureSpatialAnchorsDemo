@@ -1,4 +1,8 @@
-﻿using TMPro;
+﻿// Copyright (c) 2020 Satoshi Maemoto
+// Released under the MIT license
+// http://opensource.org/licenses/mit-license.php
+
+using TMPro;
 using UnityEngine;
 
 public class MessageBar : MonoBehaviour

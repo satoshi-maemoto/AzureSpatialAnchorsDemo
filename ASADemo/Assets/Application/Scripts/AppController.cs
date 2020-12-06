@@ -1,8 +1,11 @@
-﻿using Microsoft.MixedReality.Toolkit;
+﻿// Copyright (c) 2020 Satoshi Maemoto
+// Released under the MIT license
+// http://opensource.org/licenses/mit-license.php
+
+using Microsoft.MixedReality.Toolkit;
 using Microsoft.MixedReality.Toolkit.SpatialAwareness;
 using System.Collections;
 using System.IO;
-using System.Threading.Tasks;
 using UnityEngine;
 
 public class AppController : MonoBehaviour
@@ -38,11 +41,6 @@ public class AppController : MonoBehaviour
         this.StartCoroutine(this.Process());
     }
 
-    private void AnchorModule_OnASAAnchorLocated()
-    {
-        throw new System.NotImplementedException();
-    }
-
     private void OnApplicationPause(bool pause)
     {
         if (pause)
@@ -70,8 +68,6 @@ public class AppController : MonoBehaviour
 
     private IEnumerator Process()
     {
-        //this.MessageBar.ShowMessage("TESTTEST");
-
         this.SetSpatialMappingVisible();
         this.SetDebugButtonsVisible();
         var spatialMappingState = AppController.AppSettings.visibleSpatialMapping;

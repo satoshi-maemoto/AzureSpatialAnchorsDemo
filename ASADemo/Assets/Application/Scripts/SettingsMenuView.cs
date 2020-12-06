@@ -1,4 +1,8 @@
-﻿using Microsoft.MixedReality.Toolkit.UI;
+﻿// Copyright (c) 2020 Satoshi Maemoto
+// Released under the MIT license
+// http://opensource.org/licenses/mit-license.php
+
+using Microsoft.MixedReality.Toolkit.UI;
 using UnityEngine;
 
 public class SettingsMenuView : MonoBehaviour
