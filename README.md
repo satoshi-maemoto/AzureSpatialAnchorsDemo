@@ -25,7 +25,8 @@ Packages/com.unity.xr.arkit/Assets/Shaders/ARKitLWRPBackground.shader
 41: #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Color.hlsl"
 ```
 Ref. https://forum.unity.com/threads/ar-foundation-shader-error-when-using-urp.815010/
-* **Has'nt worked property Coarse Relocalization via Bluetooth on iOS devices on my environment... Help me...**
+* **Has'nt worked property Coarse Relocalization via Bluetooth on iOS devices on my environment... Help me...**  
+(maybe this [issue](https://github.com/Azure/azure-spatial-anchors-samples/issues/228))
 
 ## How to Use
 1. Adjust any settings on settings panel which can call from "Settings" button on the main menu  
