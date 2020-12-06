@@ -28,7 +28,7 @@ Ref. https://forum.unity.com/threads/ar-foundation-shader-error-when-using-urp.8
 * **Has'nt worked property Coarse Relocalization via Bluetooth on iOS devices on my environment... Help me...**
 
 ## How to Use
-1. Adjust settings on Settings panel can use from "Settings" button on the main menu  
+1. Adjust any settings on settings panel which can call from "Settings" button on the main menu  
 ![image](https://user-images.githubusercontent.com/530182/101269414-0a36c500-37b2-11eb-9f16-971d79083728.png)
 ### With out Coarse Relocalization
 2-1. Tap the "Save Spatial Anchors" button **without use all sensors**, If you already saved you can skip to 2-2  
