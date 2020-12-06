@@ -32,7 +32,7 @@ Ref. https://forum.unity.com/threads/ar-foundation-shader-error-when-using-urp.8
 ![image](https://user-images.githubusercontent.com/530182/101269414-0a36c500-37b2-11eb-9f16-971d79083728.png)
 ### With out Coarse Relocalization
 2-1. Tap the "Save Spatial Anchors" button **without use all sensors**, If you already saved you can skip to 2-2  
-Anchor ID will save to local storage, it will used for loading anchor until overwrite 
+Anchor ID will save to local storage, it will used for loading anchor until overwrite  
 2-2. Tap the "Load Spatial Anchors" button **without use all sensors**  
 Instruction video: https://youtu.be/eP1PYCXmRTg
 ### With Coarse Relocalization
