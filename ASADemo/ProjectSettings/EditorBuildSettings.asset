@@ -9,5 +9,9 @@ EditorBuildSettings:
     path: Assets/Application/Scenes/AzureSpatialAnchors.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 59343bcb39d42324188ef52338affde2,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 1ec2a38eeba60fe4cbf807b2ed8900fc,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ccaafb22802ba234ba811b2a5b8804b2,
       type: 2}
