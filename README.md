@@ -17,14 +17,6 @@ Multi platform build-ready project for Azure Spatial Anchors.
 ![image](https://user-images.githubusercontent.com/530182/101269237-32252900-37b0-11eb-8009-9679478806f5.png)
 
 ### Known issues
-* Building for Android, require modify below code manually  
-```
-Packages/com.unity.xr.arkit/Assets/Shaders/ARKitLWRPBackground.shader
-
-40: #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
-41: #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Color.hlsl"
-```
-Ref. https://forum.unity.com/threads/ar-foundation-shader-error-when-using-urp.815010/
 * **Has'nt worked property Coarse Relocalization via Bluetooth on iOS devices on my environment... Help me...**  
 (maybe this [issue](https://github.com/Azure/azure-spatial-anchors-samples/issues/228))
 
